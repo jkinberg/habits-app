@@ -1,0 +1,10 @@
+<template name="habits">
+  <div class="hero-unit">
+    <h1>Habits</h1>
+    <ul>
+      {{#each habits}}
+      <li>{{> habitListItem}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</template>
